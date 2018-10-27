@@ -2,8 +2,7 @@ const fs = require('fs')
 
 const [
   messageFile,
-  commitType,
-  commitHash
+  commitType
 ] = process.env.HUSKY_GIT_PARAMS.split(' ')
 
 if (commitType == null) {
